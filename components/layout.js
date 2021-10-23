@@ -6,8 +6,8 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Logo from "./logo";
 
-export const siteTitle = "Hello App Runner and Copilot!";
-export const topPageMessage = "Mark Brooks Roostify Demo App!";
+export const siteTitle = "Hello Mark, This is App Runner and Copilot!";
+export const topPageMessage = "Mark Brooks Copilot Demo App.";
 
 export default function Layout({ children, home }) {
   return (
@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
           rel="icon"
           href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>"
         ></link>
-        <meta name="description" content="Hello, App Runner and Copilot! 👋" />
+        <meta name="description" content="Hello Mark, from App Runner and Copilot! 👋" />
         <title>{siteTitle}</title>
       </Head>
       <header className={styles.header}>
